@@ -1,0 +1,71 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: rgb(0, 0, 0);
+    position: relative;
+}
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #000000;
+    color: white;
+}
+
+.wallet-container {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+.balance {
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    
+}
+
+.input-field, .button {
+    width: 300px; /* одинаковая ширина для полей и кнопок */
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    box-sizing: border-box;
+    background-color: #15ff00;
+
+}
+
+.input-field {
+    border: none;
+    margin-bottom: 10px;
+}
+
+.button {
+    border: none;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background-color: #15ff00;
+
+}
